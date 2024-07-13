@@ -6,6 +6,7 @@
 #import <react/renderer/components/RNTestViewViewSpec/RCTComponentViewHelpers.h>
 
 #import "RCTFabricComponentsPlugins.h"
+#import "react_native_test_view-Swift.h"
 
 using namespace facebook::react;
 
@@ -29,6 +30,9 @@ using namespace facebook::react;
     _props = defaultProps;
 
     _view = [[UIView alloc] init];
+      
+    SimpleLogger *logger = [[SimpleLogger alloc] init];
+    [logger logHelloWorld];
 
     self.contentView = _view;
   }
