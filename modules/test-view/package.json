@@ -1,0 +1,23 @@
+{
+  "name": "react-native-test-view",
+  "version": "0.0.0",
+  "description": "test view",
+  "main": "src/index",
+  "codegenConfig": {
+    "name": "RNTestViewViewSpec",
+    "type": "components",
+    "jsSrcsDir": "src"
+  },
+  "author": " <> ()",
+  "license": "UNLICENSED",
+  "homepage": "#readme",
+  "devDependencies": {
+    "react": "18.2.0",
+    "react-native": "0.74.3"
+  },
+  "create-react-native-library": {
+    "type": "view-new",
+    "languages": "kotlin-objc",
+    "version": "0.38.2"
+  }
+}
