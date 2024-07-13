@@ -1,6 +1,6 @@
 #import "TestViewView.h"
 
-#import <react/renderer/components/RNTestViewViewSpec/ComponentDescriptors.h>
+#import "react/renderer/components/ComponentDescriptors.h"
 #import <react/renderer/components/RNTestViewViewSpec/EventEmitters.h>
 #import <react/renderer/components/RNTestViewViewSpec/Props.h>
 #import <react/renderer/components/RNTestViewViewSpec/RCTComponentViewHelpers.h>
