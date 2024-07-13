@@ -7,6 +7,7 @@
 
 #import "RCTFabricComponentsPlugins.h"
 #import "react_native_test_view-Swift.h"
+#import "Calculator.h"
 
 using namespace facebook::react;
 
@@ -33,6 +34,10 @@ using namespace facebook::react;
       
     SimpleLogger *logger = [[SimpleLogger alloc] init];
     [logger logHelloWorld];
+      
+    Calculator calculator;
+    int result = calculator.add(3, 4);
+    NSLog(@"Result of addition: %d", result);
 
     self.contentView = _view;
   }
